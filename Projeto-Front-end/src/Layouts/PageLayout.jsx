@@ -1,6 +1,4 @@
-import React from 'react';
 
-// Definindo o componente de layout
 const Layout = ({ children }) => {
   return (
     <div>

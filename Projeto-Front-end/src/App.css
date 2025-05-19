@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #4b494a;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e91e63;
+}
+
+#menu a.active{
+    color: #e91e63;
+}
+.nav-link.active {
+    border-bottom: 2px solid #e91e63;
+    font-weight: bold;
+}
+
+ 

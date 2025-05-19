@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PageLayout from "../Layouts/PageLayout";
 import HomePage from "../pages/HomePage";
 
 const Paths = () => {

@@ -1,13 +1,16 @@
-import Carrossel from "../components/Carrosel";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Carrossel, OfertaEspecial } from "../components/Section";
 
 const HomePage = () => {
     return ( 
-    <>
+        <>
         <Header />
-        <Gallery />
-    </> 
-    );
+        <Carrossel/>
+        <OfertaEspecial/>
+        <Footer/>
+        </>
+     );
 }
  
 export default HomePage;
