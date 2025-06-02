@@ -1,16 +1,13 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import FilterGroup from "../components/FilterGroup";
 
-const ProductListingPage = () =>{
-
+const Categorias = () => {
     return ( 
         <>
         <Header/>
-        <FilterGroup/>
         <Footer/>
         </>
      );
 }
  
-export default ProductListingPage;
+export default Categorias;

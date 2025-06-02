@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <>
-        <footer style={{backgroundColor: '#242323', marginTop: '50px'}}>
+        <footer style={{backgroundColor: '#1F1F1F', marginTop: '50px'}}>
             <div style={{display: "flex"}}>
                 <div id="secao1">
                     <img src="src/assets/logo-footer.svg" style={{marginLeft:'95px',  marginTop: '50px'}} alt="" />
@@ -47,8 +47,8 @@ const Footer = () => {
 
             </div>
             <hr style={{color:'white', width: '88%', marginLeft:'89px'}}/>
-            <div>
-                <p style={{textAlign:'center', backgroundColor:'#242323', color: '#ffffff', height: '40px' }}>@ 2022 Digital College</p>
+            <div style={{marginBottom: '-20px'}}>
+                <p style={{textAlign:'center', backgroundColor:'#1F1F1F', color: '#ffffff', height: '40px' }}>@ 2022 Digital College</p>
             </div>
         </footer>
         </>

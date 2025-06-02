@@ -1,4 +1,6 @@
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
     return ( 
@@ -11,7 +13,6 @@ const Header = () => {
                         <Logo />
                     </div>
 
-               
                                 <div className="flex-grow-1">
                                 <div className="input-group">
                                 <input 
@@ -45,16 +46,16 @@ const Header = () => {
                <div id="menu">
     <ul className="nav">
         <li className="nav-item">
-            <a href="#" className="nav-link active">Home</a>
+              <Link to="/home" className="nav-link active">Home</Link>
         </li>
         <li className="nav-item">
-            <a href="#" className="nav-link">Produtos</a>
+            <Link to="/produtos" className="nav-link">Produtos</Link>
         </li>
         <li className="nav-item">
-            <a href="#" className="nav-link">Categorias</a>
+            <Link to="/categorias" className="nav-link">Categorias</Link>
         </li>
         <li className="nav-item">
-            <a href="#" className="nav-link">Meus Pedidos</a>
+            <Link to="/pedidos" className="nav-link">Meus Pedidos</Link>
         </li>
     </ul>
 </div>
