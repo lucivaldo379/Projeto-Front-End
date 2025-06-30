@@ -14,14 +14,17 @@
 
 .nav-link:hover {
     color: #e91e63;
+     font-weight: bold;
 }
 
 #menu a.active{
     color: #e91e63;
 }
+
 .nav-link.active {
-    border-bottom: 2px solid #e91e63;
-    font-weight: bold;
+  font-weight: bold;
+  color: #c73364 !important;
+  border-bottom: 2px solid #c73364;
 }
 
  

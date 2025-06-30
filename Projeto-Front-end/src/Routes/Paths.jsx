@@ -2,8 +2,10 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ProductListingPage from "../pages/ProductListingPage";
 import ProductViewPage from "../pages/ProductViewPage";
-import Categorias from "../pages/Categorias";
 import MeusPedidos from "../pages/MeusPedidos";
+import Categorias from "../pages/Categorias";
+import NotFound404 from "../components/NotFound404";
+import Cadastre from "../pages/Cadastre";
 
 
 const Paths = () => {
@@ -16,6 +18,8 @@ const Paths = () => {
         <Route path="/productview" element={<ProductViewPage />} />
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/pedidos" element={<MeusPedidos />} />
+        <Route path="/cadastre" element={<Cadastre/>}/>
+        <Route path="*" element={<NotFound404 />} />
       </Routes>
     </BrowserRouter>
   );
